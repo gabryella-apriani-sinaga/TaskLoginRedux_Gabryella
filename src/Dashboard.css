@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  gap:2rem;
+  justify-content: center;
+}
+.app button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  /* Menengahkan tombol secara horizontal */
+ 
+  /* margin-right: auto; */
+  display: block;
+  width: 40px;
+  border-radius: 90%;
+}
